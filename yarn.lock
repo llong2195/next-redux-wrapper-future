@@ -7111,15 +7111,10 @@ neo-async@^2.6.2:
   resolved "https://mirrors.tencent.com/npm/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-next-redux-wrapper-future@^1.0.2:
-  version "1.0.2"
-  resolved "https://mirrors.tencent.com/npm/next-redux-wrapper-future/-/next-redux-wrapper-future-1.0.2.tgz#ebc3c70cc4db115387bd24ecf4264152bc6cba01"
-  integrity sha512-TkCK3hjhDuPb8M29bBVoBq8KGQZ2fs345LbJP/Cmnl8eFsAqbTn4hc0akr/pWdsfcyL3akOl1lAAXeJMmH7BcA==
-
-next-redux-wrapper-future@^1.1.0:
-  version "1.1.0"
-  resolved "https://mirrors.tencent.com/npm/next-redux-wrapper-future/-/next-redux-wrapper-future-1.1.0.tgz#e4445469a8cfef7e1ac6e0cb3aaa56ad47922ac5"
-  integrity sha512-4EtkvSvYU4jnsUyD+cIgRXKkeUFtMia1ymt1IWkOa4CdG9neyW2vsr1b1S63MgEO5v9Mz4TFVSdsfLjTmQ0+6g==
+next-redux-wrapper-future@^1.2.1:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/next-redux-wrapper-future/-/next-redux-wrapper-future-1.2.2.tgz#c631f95de5ad029d20e089c2766d57802c2cdd1d"
+  integrity sha512-tTvaw585xRNuZI/gae1/OL3Fz2K66KCFnF5+uHyst2SurmjV1QJBVbA4T8A9XUuBVq61IVAVU9CPP0Z/LlM/pQ==
 
 next@14.0.2, next@^14.0.2:
   version "14.0.2"

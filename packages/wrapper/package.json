@@ -1,5 +1,5 @@
 {
-  "name": "next-redux-wrapper-future",
+  "name": "@llong2195/next-redux-wrapper",
   "version": "1.2.0",
   "description": "Redux wrapper for Next.js",
   "main": "lib/index.js",

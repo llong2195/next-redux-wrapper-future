@@ -121,7 +121,7 @@ export const createWrapper = <S extends Store>(makeStore: MakeStore<S>, config: 
                     console.log(`ssr error, get next data initital state`, ssrDataInitialState);
                 }
                 state = {...state, ...ssrDataInitialState};
-            } catch(e) {
+            } catch (e) {
                 console.error(e);
             }
         }
@@ -204,7 +204,7 @@ export const createWrapper = <S extends Store>(makeStore: MakeStore<S>, config: 
         const router = useRouter();
         const shouldHydrate = useRef(true);
 
-        let events = null;
+        let events: any = null;
         if (router) {
             events = router?.events;
         }
@@ -221,7 +221,6 @@ export const createWrapper = <S extends Store>(makeStore: MakeStore<S>, config: 
                 events?.off('routeChangeStart', handleStart);
             };
         }, [events]);
-
 
         // useMemo so that when we navigate client side, we always synchronously hydrate the state before the new page
         // components are mounted. This means we hydrate while the previous page components are still mounted.
